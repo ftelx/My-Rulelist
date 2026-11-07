@@ -1,0 +1,19 @@
+# > Gemini Web & API 核心接口
+DOMAIN-KEYWORD,gemini
+DOMAIN,geminiweb-pa.clients6.google.com
+DOMAIN,gemini.gstatic.com
+DOMAIN-SUFFIX,gemini.google.com
+DOMAIN-SUFFIX,bard.google.com
+
+# > Google AI Studio & 开发者接口
+DOMAIN-SUFFIX,aistudio.google.com
+DOMAIN-SUFFIX,makersuite.google.com
+DOMAIN-SUFFIX,alkalimakersuite-pa.clients6.google.com
+DOMAIN-SUFFIX,generativelanguage.googleapis.com
+DOMAIN-SUFFIX,proactivebackend-pa.googleapis.com
+
+# > DeepMind & Google AI 品牌域名
+DOMAIN-SUFFIX,deepmind.com
+DOMAIN-SUFFIX,deepmind.google
+DOMAIN-SUFFIX,generativeai.google
+DOMAIN-SUFFIX,ai.google.dev
