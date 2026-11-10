@@ -1,3 +1,30 @@
+# > Google Antigravity 核心与官网接口
+DOMAIN-KEYWORD,antigravity
+DOMAIN-SUFFIX,antigravity.google
+DOMAIN-SUFFIX,antigravity.google.com
+DOMAIN-SUFFIX,antigravity.dev
+DOMAIN-SUFFIX,antigravity-unleash.goog
+
+# > Antigravity & Code Assist 底层大模型通信接口 (最关键，SSE长连接走这里)
+DOMAIN-SUFFIX,cloudcode-pa.googleapis.com
+DOMAIN-SUFFIX,daily-cloudcode-pa.googleapis.com
+DOMAIN-SUFFIX,aicode.googleapis.com
+DOMAIN-SUFFIX,businessaicode.googleapis.com
+DOMAIN-SUFFIX,cloudaicompanion.googleapis.com
+DOMAIN-SUFFIX,sandbox.googleapis.com
+
+# > Antigravity 自动更新服务 (Google Cloud Run)
+DOMAIN,antigravity-cli-auto-updater-974169037036.us-central1.run.app
+DOMAIN,antigravity-hub-auto-updater-974169037036.us-central1.run.app
+
+# > Antigravity 本地客户端进程分流 (配合 TUN 模式防漏网)
+PROCESS-NAME,Antigravity.exe
+PROCESS-NAME,Antigravity
+PROCESS-NAME,agy
+PROCESS-NAME,agy.exe
+PROCESS-NAME,language_server.exe
+PROCESS-NAME,language_server
+
 # > Gemini Web & API 核心接口
 DOMAIN-KEYWORD,gemini
 DOMAIN,geminiweb-pa.clients6.google.com
